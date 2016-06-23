@@ -17,5 +17,22 @@ standard-minifier-js    # JS minifier run for production mode
 es5-shim                # ECMAScript 5 compatibility for older browsers.
 ecmascript              # Enable ECMAScript2015+ syntax in app code
 
-autopublish             # Publish all data to the clients (for prototyping)
-insecure                # Allow all DB writes from clients (for prototyping)
+
+## BASE
+kadira:flow-router 				# Routing
+kadira:blaze-layout 			# Blaze rendering for flow-router
+accounts-password 				# User management made easy for meteor
+
+
+# BACKEND
+aldeed:simple-schema 			# Schemas for your models
+aldeed:collection2 				# Enforce your schemas on every DB call
+dburles:collection-helpers 		# Create collection independent helpers
+mdg:validated-method 			# Methods boilerplate from MDG
+tunifight:loggedin-mixin 		# Checks for login and roles in methods
+
+
+# FRONTEND
+semantic:ui 					# Semantic-ui
+flemay:less-autoprefixer 		# For use with semantic-ui
+themeteorchef:bert 				# Popup alerts
